@@ -1,0 +1,31 @@
+.add-btn{
+    order: 5;
+    cursor: pointer;
+    border-radius: 60%;
+    .btn-img{
+        width: 5rem;
+    }
+
+    &:hover{
+        animation: scale 1s infinite;
+    }
+}
+
+.card-btn{ 
+    padding: 0.2rem 2rem;
+    font-size: 2rem;
+    text-decoration: none;
+    color: white;
+    display: block;
+    background-image: linear-gradient(to right bottom,rgb(138, 162, 233),rgb(97, 97, 202));
+    border-radius: 100px;
+
+    &:hover{
+        background-image: linear-gradient(to right bottom,rgb(97, 97, 202),rgb(138, 162, 233));
+    }
+} 
+
+.newcard-btn{
+    margin-top: 2.5rem;
+    align-self: center;
+}

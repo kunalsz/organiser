@@ -1,0 +1,15 @@
+{
+  "name": "css",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "compile" : "node-sass style.scss style.css -w",
+    "show" : "live-server --browser=firefox"
+  },
+  "author": "Kunal",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "node-sass": "^4.14.0"
+  }
+}

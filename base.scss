@@ -1,0 +1,23 @@
+//VArs
+
+$color-secondary : rgb(146, 58, 78);
+$color-primary :  rgb(255, 0, 43);
+
+*,*::before,*::after{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: Changa,sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+    box-sizing: border-box;
+    background-image: linear-gradient(to right bottom,$color-primary,$color-secondary);
+}
